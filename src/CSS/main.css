@@ -1,0 +1,129 @@
+* {
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header_text {
+    margin-top: 7%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    z-index: 0;
+    letter-spacing: -.0175em;
+    -webkit-font-feature-settings: "liga" off;
+    font-feature-settings: "liga" off;
+    color: #07211d;
+}
+
+
+.header_text_2 {
+    margin-top: 7%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 60px;
+    z-index: 0;
+    letter-spacing: -.0175em;
+    -webkit-font-feature-settings: "liga" off;
+    font-feature-settings: "liga" off;
+    color: #07211d;
+}
+
+.one {
+    color: #24a791;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.home_text_1{
+    font-weight: bold;
+    color:#616463;
+    font-size: 1.5em;
+
+}
+
+.home_text_2{
+    font-weight: bold;
+    color:#616463;
+    font-size: 1em;
+
+}
+
+.bookBTN1 {
+    background: linear-gradient(68.7deg,#24a791 13.2%,green 29.8%,#24a791 48.9%,#afe1af 68.2%,#24a791 86.4%);
+    background-size: 800% 400%;
+    padding: 1em 2em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    -webkit-animation: gradient 10s cubic-bezier(.62,.28,.23,.99) infinite both;
+    animation: gradient 10s cubic-bezier(.62,.28,.23,.99) infinite both;
+}
+
+.eng_image {
+    max-width: 100%;
+    max-height: 80%;
+    display: block;
+    margin: auto;
+    /* position: relative; */
+    top: 80%;
+    /* object-fit: none; */
+    object-position: center top;
+}
+
+.why_clapingo .margin-wrapper {
+    margin-left: 30%;
+}
+
+.why_clapingo .title-why {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    letter-spacing: -.01em;
+    color: #001f27;
+}
+
+.margin_point-5, .my-5 {
+    margin-top: 3rem!important;
+}
+
+.why_clapingo .why_flex {
+    display: flex;
+    align-content: center;
+    margin-top: 0.1rem;
+}
+
+.why_clapingo .why_subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -.0025em;
+    color: #001f27;
+}
+
+.faq {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: 15%;
+}
+
+.home_text_3{
+    font-weight: bold;
+    color:#001f27;
+    font-size: 2.5em;
+}
