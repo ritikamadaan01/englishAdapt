@@ -93,6 +93,15 @@ const Navbar = () => {
 
                     </ul>
                 </div>
+                {/* 3rd social media links */}
+                <div className="social-media">
+                    {/* hamburget menu start  */}
+                    <div className="hamburger-menu">
+                        <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                            <GiHamburgerMenu />
+                        </a>
+                    </div>
+                </div>
             </nav>
         </>
     );
