@@ -22,7 +22,7 @@ const Navbar = () => {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
     return (
         <>
-            <nav className="main-nav">
+            <nav className="main-nav bg-light">
                 {/* 1st logo part  */}
                 <div className="logo">
                     <Link to='/home' activeStyle>
