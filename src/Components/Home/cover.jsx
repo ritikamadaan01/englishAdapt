@@ -41,8 +41,11 @@ class Cover extends React.Component {
                 </div>
 
                 <div className="col-12 text-center">
-                    <div className="pt-md-2 mt-1 home_button_container">
-                        <button className="bookBTN1">Book Your Trial @ &#x20B9; 99</button>
+                    <div className="pt-md-2 mt-1 home_button_container" style={{ margin: "auto", width: "fit-content" }}>
+                        <button className="bookBTN1">
+                            <a href={"https://web.whatsapp.com/send?phone=919996610098&text=Hello, I would like to know more about the courses offered."}
+                                target="_blank"
+                                style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
                     </div>
                 </div>
             </div>

@@ -114,7 +114,7 @@ p {
     
 }
 
-.why_enro{
+.why_enrol{
     font-weight: bold;
     color:#001f27;
     font-size: 3em;
@@ -127,18 +127,36 @@ p {
     background-size:  100% 100%;
 }
 
-.footer {
-    background-color:#0a0d17;
-    overflow: hidden;
-    padding: 2% 7%;
+
+.business_eng_image {
+    background-image: url("../Assets/business_english.jpeg");
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  100% 100%;
 }
 
-.footer .card {
-    border: none;
-    border-radius: 0;
-    background-color: #0a0d17;
-    overflow: hidden;
-    color: white;
-    padding: 2% 7%;
+.bussiness {
+    margin:1.5em;
+    padding-bottom: 4rem;
 }
 
+.bussiness_eng {
+    font-weight: bold;
+    color:#001f27;
+    font-size: 2em;
+    /* text-align: ; */
+}
+
+
+.business_text_1{
+    /* font-weight: bold; */
+    color:black;
+    font-size: 1em;
+
+}
+
+.plan_card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:10px 5px 10px #d3eae9;;
+}

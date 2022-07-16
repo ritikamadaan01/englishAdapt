@@ -1,10 +1,61 @@
 import React, { Component } from 'react';
+import "./../CSS/main.css"
+import eng from "../Assets/business_english.jpeg"
+import { RiBallPenFill } from "react-icons/ri";
 
 class BusinessEnglish extends React.Component {
     render() {
-        return <div>
-            BusinessEnglish
-        </div>;
+        return <div className="row g-0" style={{ backgroundColor: "#f6f5ef" }}>
+
+
+            <div className="col-md-6 col-12 p-3 text-justify">
+
+                <div className="bussiness">
+                    <h1 className="bussiness_eng">Feel stuck in &nbsp;
+                        <span className="one">
+                            professional &nbsp;
+                        </span>
+                        growth?
+                    </h1>
+
+                    <div className="business_text_1">
+                        <p className="">
+                            This course is designed to teach you to communicate effectively in
+                            English in professional contexts. You will expand your English vocabulary,
+                            improve your ability to write and speak in English in both social and
+                            professional interactions, and learn terminology and skills that you can
+                            apply to business negotiations, telephone conversations, written reports
+                            and emails, and professional presentations.
+
+
+                        </p>
+                    </div>
+
+
+                    <div className="points margin_point-5">
+
+                        <div className="">
+                            <p className="why_subtitle"> <RiBallPenFill />&nbsp;&nbsp; Improve Confidence</p>
+                        </div>
+                        <div className="">
+                            <p className="why_subtitle"> <RiBallPenFill />&nbsp;&nbsp; Learn Effective Communication</p>
+                        </div>
+                        <div className="">
+                            <p className="why_subtitle"> <RiBallPenFill />&nbsp;&nbsp; Achieve Fluency</p>
+                        </div>
+                        <div className="">
+                            <p className="why_subtitle"> <RiBallPenFill />&nbsp;&nbsp; Enhance Accuracy</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="col-md-6 d-md-block d-none business_eng_image">
+
+            </div>
+
+        </div>
     }
 }
 
