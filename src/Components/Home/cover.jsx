@@ -42,7 +42,7 @@ class Cover extends React.Component {
 
                 <div className="col-12 text-center">
                     <div className="pt-md-2 mt-1 home_button_container">
-                        <button className="bookBTN1">Book Your Trial @ ₹99</button>
+                        <button className="bookBTN1">Book Your Trial @ &#x20B9; 99</button>
                     </div>
                 </div>
             </div>

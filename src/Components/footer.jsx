@@ -4,11 +4,11 @@ import "./../CSS/main.css"
 
 class Footer extends React.Component {
     render() {
-        return <div className="row m-0 text-white p-5 text-justify" style={{ backgroundColor: "#0a0d17" }}>
+        return <div className="row m-0 text-white p-5" style={{ backgroundColor: "#0a0d17" }}>
             <div className="col-md-4 col-12 p-3">
-                <div>Logo</div>
+                {/* <div>Logo</div> */}
                 <h1>About Us</h1>
-                <p>English Adapt is a platform where you can practise conversations with highly
+                <p >English Adapt is a platform where you can practise conversations with highly
                     skilled trainers. This is a judgment-free space where people can freely speak
                     and enhance their language skills. It's not only a platform to practice but to
                     achieve proficiency in grammar, fluency, and every aspect of the English language

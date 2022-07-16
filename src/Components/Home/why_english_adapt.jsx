@@ -12,7 +12,7 @@ class WhyEnglishAdapt extends React.Component {
 
         return <div className="row p-5 m-5" >
 
-            <div className="col-md-6 col-12 text-justify why_adapt ">
+            <div className="col-md-6 col-12 text-justify why_adapt">
 
                 <div className="p-3 " >
                     <p className="title-why">
