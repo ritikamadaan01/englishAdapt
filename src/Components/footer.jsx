@@ -4,7 +4,7 @@ import "./../CSS/main.css"
 
 class Footer extends React.Component {
     render() {
-        return <div className="row  text-white p-5 text-justify" style={{ backgroundColor: "#0a0d17" }}>
+        return <div className="row m-0 text-white p-5 text-justify" style={{ backgroundColor: "#0a0d17" }}>
             <div className="col-md-4 col-12 p-3">
                 <div>Logo</div>
                 <h1>About Us</h1>

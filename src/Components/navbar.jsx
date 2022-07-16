@@ -29,10 +29,8 @@ const Navbar = () => {
                         <img
                             src={require('../Assets/English_Adapt-removebg-preview.png')}
                             alt="dFuse logo"
-                            style={{ maxWidth: "200px" }}
+                            className="navIco"
                         />
-
-
                     </Link>
                 </div>
 
@@ -97,7 +95,7 @@ const Navbar = () => {
                 <div className="social-media">
                     {/* hamburget menu start  */}
                     <div className="hamburger-menu">
-                        <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                        <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)} style={{ color: "black" }}>
                             <GiHamburgerMenu />
                         </a>
                     </div>

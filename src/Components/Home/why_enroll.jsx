@@ -10,7 +10,7 @@ class WhyEnroll extends React.Component {
     render() {
         const { enroll_list } = this.props;
 
-        return <div className="row pt-2 p-5" style={{ backgroundColor: "#fafafa" }}>
+        return <div className="row pt-2 p-5 m-0" style={{ backgroundColor: "#fafafa" }}>
             <div className="col-12 m-5 text-justify">
 
                 <div className="faq">
