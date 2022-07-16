@@ -1,15 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-}
-
-html {
-  font-size: 62.5%;
-}
 
 a {
   text-decoration: none;
@@ -34,7 +22,7 @@ li {
 .main-nav {
   /* background-image: linear-gradient(to right, #310337,#19002a, #0f0e35);  */
   width: 100%;
-  height: 10rem;
+  height: auto;
   display: grid;
   grid-template-columns: 16rem 1fr 2fr 1fr 10rem;
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -163,14 +151,14 @@ li {
 /* responsive css style  */
 @media (max-width: 1080px) {
   .main-nav {
-    height: 8rem;
+    height: auto;
     grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
   }
 
   .logo,
   .menu-link ul,
   .social-media ul {
-    height: 8rem;
+    height: auto;
   }
 
   .navIco{
@@ -181,7 +169,7 @@ li {
 /* responsive css style  */
 @media (max-width: 998px) {
   .main-nav {
-    height: 7rem;
+    height: auto;
     grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
   }
 
@@ -191,7 +179,7 @@ li {
 
   .logo,
   .social-media ul {
-    height: 7rem;
+    height: auto;
   }
 
   .mobile-menu-link {
@@ -258,13 +246,13 @@ li {
 
 @media (max-width: 798px) {
   .main-nav {
-    height: 6rem;
+    height: auto;
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
   }
 
   .logo,
   .social-media ul {
-    height: 6rem;
+    height: auto;
   }
 
   .social-media {
@@ -286,13 +274,13 @@ li {
 
 @media (max-width: 520px) {
   .main-nav {
-    height: 6rem;
+    height: auto;
     grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
   }
 
   .logo,
   .social-media ul {
-    height: 6rem;
+    height: auto;
   }
 
   .logo h2 {

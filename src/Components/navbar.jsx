@@ -28,7 +28,7 @@ const Navbar = () => {
                     <Link to='/home' activeStyle>
                         <img
                             src={require('../Assets/English_Adapt-removebg-preview.png')}
-                            alt="dFuse logo"
+                            alt="English Adapt logo"
                             className="navIco"
                         />
                     </Link>
