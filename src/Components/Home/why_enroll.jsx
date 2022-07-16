@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./../../CSS/main.css"
-import eng from "../../Assets/eng.jpeg"
+import eng from "../../Assets/why_enroll.jpeg"
 import { RiBallPenFill } from "react-icons/ri";
 
 
@@ -10,16 +10,18 @@ class WhyEnroll extends React.Component {
     render() {
         const { enroll_list } = this.props;
 
-        return <div className="row pt-2 p-5 m-0" style={{ backgroundColor: "#fafafa" }}>
-            <div className="col-12 m-5 text-justify">
+        return <div className="row" style={{ backgroundColor: "#fafafa" }}>
+
+            <div className="col-md-6 d-md-block d-none why_enroll_image">
+
+            </div>
+            <div className="col-md-6 col-12 text-justify">
 
                 <div className="faq">
-                    <h1 className="home_text_3">Who should enrol?
+                    <h1 className="why_enrol">Who should enrol?
                         <br />
                         Enrol if this&nbsp;
-                        <span style={{
-                            color: "rgb(77, 197, 145)"
-                        }}>
+                        <span className="one">
                             sounds&nbsp;
                         </span>like you
                     </h1>
@@ -28,7 +30,7 @@ class WhyEnroll extends React.Component {
                         {enroll_list.map((item, i) => (
                             <div className="why_flex" key={i}>
 
-                                <p className="why_subtitle"> <RiBallPenFill /> {item}
+                                <p className="why_subtitle"> <RiBallPenFill />&nbsp;&nbsp; {item}
                                 </p>
                             </div>))}
 

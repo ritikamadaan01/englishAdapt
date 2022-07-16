@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@200;300&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 a {
   text-decoration: none;
@@ -20,14 +20,14 @@ li {
   max-width: 50%;
 }
 
-
 .main-nav {
   /* background-image: linear-gradient(to right, #310337,#19002a, #0f0e35);  */
   width: 100%;
   height: auto;
   display: grid;
   grid-template-columns: 16rem 1fr 2fr 1fr 10rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 62.5%;
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }

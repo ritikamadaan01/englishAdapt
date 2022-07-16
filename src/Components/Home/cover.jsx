@@ -6,13 +6,10 @@ import { RiBallPenFill } from "react-icons/ri";
 
 class Cover extends React.Component {
     render() {
-        return <div className="">
+        return <div className="cover_image">
 
-            <div className=''>
-                <div>
-                    <img className='cover_image' src = {eng}></img>
-                </div>
-                <div className="col-md-6 col-12 p-5 text-justify cont">
+            <div className="row m-0 p-5">
+                <div className="col-md-6 col-12 p-5 text-justify">
                     <h1 className="header_text">
                         Choose what suits you-
                         <br />
@@ -24,19 +21,18 @@ class Cover extends React.Component {
                     <div className="home_text_1">
                         <p className="sub_header_text">
                             Practice english conversation with proficient trainers
-                            <br />
                             across the country and unleash your fluency
 
                         </p>
                     </div>
 
                 </div>
-                <div className="col-md-6 col-12 p-5 text-justify cont">
+                <div className="col-md-6 col-12 p-5 text-justify">
                     <h1 className="header_text">
-                        Live, Group online classes for English.
+                        <span className="one"> Live, Group </span> online classes for English.
                         <br />
                     </h1>
-                    <div className="home_text_2">
+                    <div className="home_text_1">
                         <p className="sub_header_text">
                             Unleash your fluency and boost your confidence talking
                             to a group of people across the country from varied fields.

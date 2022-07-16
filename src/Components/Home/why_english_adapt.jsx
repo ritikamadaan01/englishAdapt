@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./../../CSS/main.css"
-import eng from "../../Assets/eng.jpeg"
+import eng from "../../Assets/Do_you_speak.jpeg"
 import { RiBallPenFill } from "react-icons/ri";
 
 
@@ -9,17 +9,19 @@ import { RiBallPenFill } from "react-icons/ri";
 class WhyEnglishAdapt extends React.Component {
     render() {
         const { whyEnglishAdaptList } = this.props
-        console.log("ss", whyEnglishAdaptList)
-        return <div className="row pt-5 p-5 m-0" style={{ backgroundColor: "#f6f8fe" }}>
-            <div className="col-md-6 col-12 text-justify why_clapingo ">
-                <div className="margin-wrapper">
+
+        return <div className="row p-5 m-5" >
+
+            <div className="col-md-6 col-12 text-justify why_adapt ">
+
+                <div className="p-3 " >
                     <p className="title-why">
                         Why
                         <span className="one"
                             style={{
                                 fontWeight: "bold"
                             }}>
-                            &nbsp;EnglishAdapt&nbsp;
+                            &nbsp;English Adapt&nbsp;
                         </span>
                         is your
                         <br />
@@ -28,26 +30,26 @@ class WhyEnglishAdapt extends React.Component {
 
                     <div className="points margin_point-5">
                         {whyEnglishAdaptList.map((item, i) => (
-                            <div className="why_flex" key={i}>
+                            <div className="" key={i}>
 
-                                <p className="why_subtitle"> <RiBallPenFill /> {item}</p>
+                                <p className="why_subtitle"> <RiBallPenFill />&nbsp;&nbsp; {item}</p>
                             </div>
                         ))}
                     </div>
                 </div>
 
             </div>
-            <div className="col-md-6 col-12 p-5 text-justify">
-                <div className="">
+            <div className="col-md-6 d-md-block d-none text-justify">
+                <div>
                     <img
                         className="eng_image"
-                        // src="https://images.weserv.nl/?url=https://s3.ap-south-1.amazonaws.com/cdn.clapingo.com/clapingoWeb/top.png&amp;w=542&amp;h=484&amp;output=webp"
-                        // src={}
-                        alt="clapingo header" />
+                        src={eng}
+                        alt="English Adapt" />
                 </div>
+
             </div>
 
-        </div>
+        </div >
     }
 }
 
