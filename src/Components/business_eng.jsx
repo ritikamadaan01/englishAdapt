@@ -20,14 +20,12 @@ class BusinessEnglish extends React.Component {
 
                     <div className="business_text_1">
                         <p className="">
-                            This course is designed to teach you to communicate effectively in
-                            English in professional contexts. You will expand your English vocabulary,
-                            improve your ability to write and speak in English in both social and
-                            professional interactions, and learn terminology and skills that you can
-                            apply to business negotiations, telephone conversations, written reports
-                            and emails, and professional presentations.
-
-
+                            Business English course is designed to train you to communicate effectively in
+                            English in professional contexts. The course is centered to expand your Formal
+                            English vocabulary and enhance your ability to write and speak in English. Our
+                            experienced trainers will also help you to learn terminology and skills that
+                            are required for your professional growth like business negotiations, telephone
+                            conversations, email writing, emotional intelligence, and presentations skills.
                         </p>
                     </div>
 

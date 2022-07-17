@@ -20,7 +20,7 @@ class Plans extends React.Component {
                     <div className="col-12 text-center">
                         <div className="pt-md-2 mt-1" style={{ margin: "auto", width: "fit-content" }}>
                             <button className="bookBTN2">
-                                <a href={"https://web.whatsapp.com/send?phone=919999012290&text=Hello, I would like to know more about the courses offered."}
+                                <a href={"https://web.whatsapp.com/send?phone=918999800008&text=Hello, I would like to know more about the courses offered."}
                                     target="_blank"
                                     style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
                         </div>
@@ -43,7 +43,7 @@ class Plans extends React.Component {
                     <div className="col-12 text-center">
                         <div className="pt-md-2 mt-1" style={{ margin: "auto", width: "fit-content" }}>
                             <button className="bookBTN2">
-                                <a href={"https://web.whatsapp.com/send?phone=919999012290&text=Hello, I would like to know more about the courses offered."}
+                                <a href={"https://web.whatsapp.com/send?phone=918999800008&text=Hello, I would like to know more about the courses offered."}
                                     target="_blank"
                                     style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
                         </div>
@@ -69,7 +69,7 @@ class Plans extends React.Component {
                     <div className="col-12 text-center">
                         <div className="pt-md-2 mt-1" style={{ margin: "auto", width: "fit-content" }}>
                             <button className="bookBTN2">
-                                <a href={"https://web.whatsapp.com/send?phone=919999012290&text=Hello, I would like to know more about the courses offered."}
+                                <a href={"https://web.whatsapp.com/send?phone=918999800008&text=Hello, I would like to know more about the courses offered."}
                                     target="_blank"
                                     style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
                         </div>
