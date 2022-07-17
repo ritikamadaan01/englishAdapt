@@ -9,10 +9,11 @@ class Cover extends React.Component {
         return <div className="cover_image">
 
             <div className="row m-0 p-5">
-                <div className="col-md-6 col-12 p-5 text-justify">
+                <div className="col-12"
+                ><h1 className="header_text" style={{ margin: "auto", width: "fit-content" }}>Choose what suits you
+                    </h1></div>
+                <div className="col-md-6 col-12 p-5 pt-0 text-justify">
                     <h1 className="header_text">
-                        Choose what suits you-
-                        <br />
                         Live,
                         <span className="one"> one-on-one </span>
                         online classes for English.
@@ -27,9 +28,9 @@ class Cover extends React.Component {
                     </div>
 
                 </div>
-                <div className="col-md-6 col-12 p-5 text-justify">
-                    <h1 className="header_text">
-                        <span className="one"> Live, Group </span> online classes for English.
+                <div className="col-md-6 col-12 p-5 pt-0 text-justify">
+                    <h1 className="header_text">Live,
+                        <span className="one">&nbsp;Group</span> online classes for English.
                         <br />
                     </h1>
                     <div className="home_text_1">
@@ -43,7 +44,7 @@ class Cover extends React.Component {
                 <div className="col-12 text-center">
                     <div className="pt-md-2 mt-1 home_button_container" style={{ margin: "auto", width: "fit-content" }}>
                         <button className="bookBTN1">
-                            <a href={"https://web.whatsapp.com/send?phone=919996610098&text=Hello, I would like to know more about the courses offered."}
+                            <a href={"https://web.whatsapp.com/send?phone=9199&text=Hello, I would like to know more about the courses offered."}
                                 target="_blank"
                                 style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
                     </div>

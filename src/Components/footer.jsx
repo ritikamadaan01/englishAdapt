@@ -21,7 +21,7 @@ class Footer extends React.Component {
                     achieve proficiency in grammar, fluency, and every aspect of the English language
                     with the help of the trainers.
                 </p>
-                <h6>Privacy Policy {"&"} Refund Policy
+                <h6>Privacy {"&"} Refund Policy
                 </h6>
             </div>
             <div className="col-md-4 col-12 p-3 ">
@@ -45,15 +45,15 @@ class Footer extends React.Component {
                             target="_blank" style={{ color: "#c8c7ca", fontSize: "2em" }}>
                             <FaInstagramSquare />
                         </a></div>
-                    <div className="col-2">
+                    {/* <div className="col-2">
                         <a
                             href="#"
                             target="_blank" style={{ color: "#c8c7ca", fontSize: "2em" }}>
                             <FaYoutubeSquare />
-                        </a></div>
+                        </a></div> */}
                     <div className="col-2">
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/company/englishadapt/"
                             target="_blank" style={{ color: "#c8c7ca", fontSize: "2em" }}>
                             <FaLinkedin />
                         </a></div>
@@ -66,7 +66,9 @@ class Footer extends React.Component {
                     If you would like to work as a Trainer
                     Sales Executive
                     Digital marketer
-                    with us send your resume (email address to send resume)
+                    with us send your resume on englishadapt@gmail.com.
+                    <br />
+                    <br />
                     Terms and conditions
 
                 </p>

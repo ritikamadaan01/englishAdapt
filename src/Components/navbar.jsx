@@ -76,7 +76,7 @@ const Navbar = () => {
                                 Plans
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link
                                 to={{
                                     pathname: '/blogs',
@@ -87,7 +87,7 @@ const Navbar = () => {
                             >
                                 Blog
                             </Link>
-                        </li>
+                        </li> */}
 
                     </ul>
                 </div>

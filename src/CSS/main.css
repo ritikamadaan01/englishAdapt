@@ -74,6 +74,22 @@ p {
     animation: gradient 10s cubic-bezier(.62,.28,.23,.99) infinite both;
 }
 
+.bookBTN2 {
+    background: linear-gradient(68.7deg,#24a791 13.2%,green 29.8%,#24a791 48.9%,#afe1af 68.2%,#24a791 86.4%);
+    background-size: 700% 300%;
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    -webkit-animation: gradient 10s cubic-bezier(.62,.28,.23,.99) infinite both;
+    animation: gradient 10s cubic-bezier(.62,.28,.23,.99) infinite both;
+}
+
 .eng_image {
     max-width: 100%;
 }
@@ -156,7 +172,24 @@ p {
 }
 
 .plan_card {
-    background-color: white;
+    background-color: #feeee6;
     border-radius: 10px;
-    box-shadow:10px 5px 10px #d3eae9;;
+    box-shadow:20px 15px 20px 10px #edf4e7;
+}
+
+.plan-card-header {
+    padding: 1.5em;
+    background-color: #fee38e;
+    border-radius: 10px 10px 0 0;
+    font-weight: 900;
+    font-size: 1.2em;
+
+}
+
+.plan-card-body {
+    padding: 2em;
+    background-color: #feeee6;
+    border-radius: 0 0 10px 10px;
+    font-weight: 600;
+    font-size: 1em;
 }
