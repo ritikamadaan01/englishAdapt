@@ -42,7 +42,7 @@ li {
 }
 
 .menu-link {
-  grid-column: 3/4;
+  grid-column: 4/5;
   margin: auto;
 }
 
@@ -89,7 +89,7 @@ li {
 }
 
 .menu-link ul li {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: inherit;
 }
 

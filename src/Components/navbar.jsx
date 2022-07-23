@@ -1,17 +1,6 @@
 import React, { useState } from "react";
 import "../CSS/navbar.css"
-import {
-    FaFacebookSquare,
-    FaInstagramSquare,
-    FaYoutubeSquare,
-    FaTwitterSquare,
-    FaGithubSquare,
-    FaDiscord
-    // IoLogoDiscord
-} from "react-icons/fa";
-// import {
-//     IoLogoDiscord
-// } from "react-icons/io";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 
 // import { NavLink as Link } from "react-router-dom";
@@ -24,12 +13,12 @@ const Navbar = () => {
         <>
             <nav className="main-nav bg-light">
                 {/* 1st logo part  */}
-                <div className="logo">
+                <div class="container">
                     <Link to='/home' activeStyle>
                         <img
+                            style={{ height: "100px" }}
                             src={require('../Assets/English_Adapt-removebg-preview.png')}
                             alt="English Adapt logo"
-                            className="navIco"
                         />
                     </Link>
                 </div>

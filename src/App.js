@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import { Switch, Route, Redirect, Routes, Navigate } from "react-router-dom";
 import Navbar from './Components/navbar';
-// import Navbar from './Components/navbar_try';
 import Home from './Components/Home/index';
 import Footer from './Components/footer';
 import BusinessEnglish from './Components/business_eng';
