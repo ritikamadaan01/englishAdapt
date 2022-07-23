@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./../../CSS/main.css"
-import eng from "../../Assets/why_enroll.jpeg"
+// import eng from "../../Assets/why_enroll.jpeg"
 import { RiBallPenFill } from "react-icons/ri";
 
 
@@ -15,7 +15,7 @@ class WhyEnroll extends React.Component {
             <div className="col-md-6 d-md-block d-none why_enroll_image">
 
             </div>
-            <div className="col-md-6 col-12 text-justify">
+            <div className="col-md-6 col-12 text-justify pr-5">
 
                 <div className="faq">
                     <h1 className="why_enrol">Who should enrol?
@@ -26,12 +26,22 @@ class WhyEnroll extends React.Component {
                         </span>like you
                     </h1>
 
-                    <div className="points margin_point-5">
+                    <div className="margin_point-5">
                         {enroll_list.map((item, i) => (
-                            <div className="why_flex" key={i}>
+                            <div className="enroll_flex" key={i}>
+                                <p className="enrol_subtitle row g-0">
+                                    <span className="col-1 m-0 "
+                                        style={{
+                                            padding: "0",
+                                            paddingLeft: "2%",
+                                            paddingRight: "1%"
 
-                                <p className="why_subtitle"> <RiBallPenFill />&nbsp;&nbsp; {item}
+                                        }}><RiBallPenFill /></span>
+
+
+                                    <span className="col-11 m-0 p-0">{item}</span>
                                 </p>
+
                             </div>))}
 
                     </div>
@@ -39,7 +49,7 @@ class WhyEnroll extends React.Component {
 
             </div>
 
-        </div>
+        </div >
 
     }
 }

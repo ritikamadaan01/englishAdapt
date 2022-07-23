@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./../../CSS/main.css"
 import eng from "../../Assets/Do_you_speak.jpeg"
 import { RiBallPenFill } from "react-icons/ri";
@@ -10,9 +10,9 @@ class WhyEnglishAdapt extends React.Component {
     render() {
         const { whyEnglishAdaptList } = this.props
 
-        return <div className="row p-5 m-5" >
+        return <div className="row p-md-5 m-md-5 p-4" >
 
-            <div className="col-md-6 col-12 text-justify why_adapt">
+            <div className="col-md-6 col-12 text-justify">
 
                 <div className="p-3 " >
                     <p className="title-why">

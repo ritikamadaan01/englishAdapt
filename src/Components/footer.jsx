@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./../CSS/main.css"
 import {
     FaFacebookSquare,
     FaInstagramSquare,
-    FaYoutubeSquare,
     FaTwitterSquare,
     FaLinkedin
 } from "react-icons/fa";
@@ -11,7 +10,7 @@ import {
 
 class Footer extends React.Component {
     render() {
-        return <div className="row m-0 text-white p-5" style={{ backgroundColor: "#0a0d17" }}>
+        return <div className="row m-0 text-white p-4" style={{ backgroundColor: "#0a0d17", textAlign: "justify" }}>
             <div className="col-md-4 col-12 p-3">
                 {/* <div>Logo</div> */}
                 <h1>About Us</h1>
@@ -21,28 +20,28 @@ class Footer extends React.Component {
                     achieve proficiency in grammar, fluency, and every aspect of the English language
                     with the help of the trainers.
                 </p>
-                <h6>Privacy {"&"} Refund Policy
-                </h6>
+
             </div>
-            <div className="col-md-4 col-12 p-3 ">
+            <div className="col-md-4 col-12 p-3 text-left text-md-center ">
                 <h1>Quick Links</h1>
-                <div style={{ paddingLeft: 10 }} className="row">
+                <div style={{ paddingLeft: 10 }} className="row text-center">
+                    <div className="col-2 d-md-block d-none"></div>
                     <div className="col-2">
                         <a
                             href="https://www.facebook.com/people/EnglishAdapt/100083174766092/"
-                            target="_blank" style={{ color: "#c8c7ca", fontSize: "2em" }}>
+                            target="_blank" rel="noreferrer" style={{ color: "#c8c7ca", fontSize: "2em" }}>
                             <FaFacebookSquare />
                         </a></div>
                     <div className="col-2">
                         <a
                             href="https://twitter.com/EnglishAdapt/"
-                            target="_blank" style={{ color: "#c8c7ca", fontSize: "2em" }}>
+                            target="_blank" rel="noreferrer" style={{ color: "#c8c7ca", fontSize: "2em" }}>
                             <FaTwitterSquare />
                         </a></div>
                     <div className="col-2">
                         <a
                             href="https://www.instagram.com/english.adapt/"
-                            target="_blank" style={{ color: "#c8c7ca", fontSize: "2em" }}>
+                            target="_blank" rel="noreferrer" style={{ color: "#c8c7ca", fontSize: "2em" }}>
                             <FaInstagramSquare />
                         </a></div>
                     {/* <div className="col-2">
@@ -54,9 +53,10 @@ class Footer extends React.Component {
                     <div className="col-2">
                         <a
                             href="https://www.linkedin.com/company/englishadapt/"
-                            target="_blank" style={{ color: "#c8c7ca", fontSize: "2em" }}>
+                            target="_blank" rel="noreferrer" style={{ color: "#c8c7ca", fontSize: "2em" }}>
                             <FaLinkedin />
                         </a></div>
+                    <div className="col-2"></div>
                 </div>
 
             </div>
@@ -69,6 +69,8 @@ class Footer extends React.Component {
                     with us send your resume on englishadapt@gmail.com.
                     <br />
                     <br />
+                    <h6>Privacy {"&"} Refund Policy
+                    </h6>
                     Terms and conditions
 
                 </p>

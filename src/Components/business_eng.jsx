@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./../CSS/main.css"
-import eng from "../Assets/business_english.jpeg"
+// import eng from "../Assets/business_english.jpeg"
 import { RiBallPenFill } from "react-icons/ri";
 
 class BusinessEnglish extends React.Component {
@@ -13,9 +13,9 @@ class BusinessEnglish extends React.Component {
                 <div className="bussiness">
                     <h1 className="bussiness_eng">Feel stuck in &nbsp;
                         <span className="one">
-                            professional &nbsp;
+                            professional
                         </span>
-                        growth?
+                        &nbsp; growth?
                     </h1>
 
                     <div className="business_text_1">

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class Plans extends React.Component {
     render() {
-        return <div className="row " style={{ backgroundColor: "#eff3fd", padding: "4em", paddingLeft: "7em" }}>
-            <div className="col-md-4 p-0 col-12 m-2 plan_card" >
+        return <div className="row plan_head" >
+            <div className="col-md-4 p-0 mt-4 mb-3 col-12 m-2 plan_card" >
                 <div class="plan-card-header">
                     General English (One-on-One)
 
@@ -22,13 +22,14 @@ class Plans extends React.Component {
                             <button className="bookBTN2">
                                 <a href={"https://wa.me/918999800008?text=Hello, I would like to know more about the courses offered."}
                                     target="_blank"
+                                    rel="noreferrer"
                                     style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div className="col-md-4 p-0 col-12 m-2 plan_card" >
+            <div className="col-md-4 p-0 mt-4 mb-3 col-12 m-2 plan_card" >
                 <div class="plan-card-header">
                     General English (Group Sessions)
                 </div>
@@ -45,13 +46,14 @@ class Plans extends React.Component {
                             <button className="bookBTN2">
                                 <a href={"https://wa.me/918999800008?text=Hello, I would like to know more about the courses offered."}
                                     target="_blank"
+                                    rel="noreferrer"
                                     style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div className="col-md-3 p-0 col-12 m-2 plan_card" >
+            <div className="col-md-3 p-0  mt-4  mb-3 col-12 m-2 plan_card" >
                 <div class="plan-card-header">
                     Business English
 
@@ -71,6 +73,7 @@ class Plans extends React.Component {
                             <button className="bookBTN2">
                                 <a href={"https://wa.me/918999800008?text=Hello, I would like to know more about the courses offered."}
                                     target="_blank"
+                                    rel="noreferrer"
                                     style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
                         </div>
                     </div>

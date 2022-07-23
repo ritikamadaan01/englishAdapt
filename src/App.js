@@ -8,7 +8,6 @@ import Footer from './Components/footer';
 import BusinessEnglish from './Components/business_eng';
 import Plans from './Components/plans';
 import Blogs from './Components/blog';
-import Cerbot from './Components/cert_bot';
 import "./CSS/main.css"
 
 
@@ -28,7 +27,6 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/businessEnglish" element={<BusinessEnglish />} />
           <Route path="/plans" element={<Plans />} />
-          <Route path="/.well-known/acme-challenge/:A" element={<Cerbot />} />
           {/* <Route path="/blogs" element={<Blogs />} /> */}
           <Route path="/" element={<Navigate replace to="/home" />} />
         </Routes>
