@@ -10,7 +10,7 @@ class WhyEnglishAdapt extends React.Component {
     render() {
         const { whyEnglishAdaptList } = this.props
 
-        return <div className="row p-md-5 m-md-5 p-4" >
+        return <div className="row p-md-5 m-md-5 p-4 g-0" >
 
             <div className="col-md-6 col-12 text-justify">
 

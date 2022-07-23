@@ -2,7 +2,7 @@ import React from 'react';
 
 class Plans extends React.Component {
     render() {
-        return <div className="row plan_head" >
+        return <div className="row plan_head g-0" >
             <div className="col-md-4 p-0 mt-4 mb-3 col-12 m-2 plan_card" >
                 <div class="plan-card-header">
                     General English (One-on-One)

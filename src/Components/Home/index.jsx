@@ -18,7 +18,7 @@ class Home extends React.Component {
     }
     render() {
         const { whyEnglishAdaptList, enroll_list } = this.state;
-        return <div>
+        return <div className="g-0">
             <Cover />
             <WhyEnglishAdapt whyEnglishAdaptList={whyEnglishAdaptList} />
             <WhyEnroll enroll_list={enroll_list} />
