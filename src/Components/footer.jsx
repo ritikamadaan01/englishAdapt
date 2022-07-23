@@ -63,10 +63,8 @@ class Footer extends React.Component {
             <div className="col-md-4 col-12 p-3">
                 <h1>Careers</h1>
                 <p style={{ color: "#c8c7ca" }}>
-                    If you would like to work as a Trainer
-                    Sales Executive
-                    Digital marketer
-                    with us send your resume on englishadapt@gmail.com.
+                    If you would like to work as a Trainer, &nbsp;Sales Executive, &nbsp;Digital marketer or Coordinator
+                    with us, mail your resume on hr@englishadapt.com.
                     <br />
                     <br />
                     <h6>Privacy {"&"} Refund Policy
