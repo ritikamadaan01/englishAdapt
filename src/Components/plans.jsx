@@ -9,9 +9,9 @@ class Plans extends React.Component {
 
                 </div>
                 <div className="plan-card-body">
-                    <div>- 3000 per month
+                    <div>- 3500 per month
                     </div>
-                    <div>- 8000 for 3-month enrolment</div>
+                    <div>- 9000 for 3-month enrolment</div>
                     <div>- 15000 for 6-month enrolment
                     </div>
 
@@ -34,10 +34,10 @@ class Plans extends React.Component {
                     General English (Group Sessions)
                 </div>
                 <div className="plan-card-body">
-                    <div>- 2000 per month
+                    <div>- 2500 per month
                     </div>
                     <div>- 5000 for 3-month enrolment</div>
-                    <div>- 95000 for 6-month enrolment
+                    <div>- 9500 for 6-month enrolment
                     </div>
                     <br />
 
