@@ -57,6 +57,20 @@ class Footer extends React.Component {
                             <FaLinkedin />
                         </a></div>
                     <div className="col-2"></div>
+                    <br />
+                    <br />
+                    <div className="col-12">
+                        <br />
+                        <a
+                            href={"https://forms.gle/xv9G9iLSj5cAzD6w5"}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <button type="button" class="btn btn-primary">
+                                Contact Us
+                            </button>
+                        </a>
+                    </div>
                 </div>
 
             </div>
