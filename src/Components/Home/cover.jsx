@@ -8,9 +8,15 @@ class Cover extends Component {
         return <div className="cover_image">
 
             <div className="row m-0 p-md-5 pt-5 ">
-                <div className="col-12"
-                ><h1 className="header_text" style={{ margin: "auto", width: "fit-content" }}>Choose what suits you
-                    </h1></div>
+                <div className="col-12">
+                    {/* <h1 className="header_text" style={{ margin: "auto", width: "fit-content" }}>
+                        Choose what suits you
+                    </h1> */}
+                    <h1 className="header_text" style={{ margin: "auto", width: "fit-content" }}>
+                        <br />
+
+                    </h1>
+                </div>
                 <div className="col-md-6 col-12 p-md-5 pt-md-0 p-5 pb-0 pt-0 text-justify">
                     <h1 className="header_text">
                         Live,
@@ -43,10 +49,12 @@ class Cover extends Component {
                 <div className="col-12 text-center pb-md-0 pb-5">
                     <div className="pt-md-2 mt-1 home_button_container" style={{ margin: "auto", width: "fit-content" }}>
                         <button className="bookBTN1">
-                            <a href={"https://wa.me/918999800008?text=Hello, I would like to know more about the courses offered."}
+                            <a
+                                href={"https://forms.gle/xv9G9iLSj5cAzD6w5"}
+                                // href={"https://wa.me/918999800008?text=Hello, I would like to know more about the courses offered."}
                                 target="_blank"
                                 rel="noreferrer"
-                                style={{ textDecoration: "none", color: "white" }}>Book Your Trial @ 99</a></button>
+                                style={{ textDecoration: "none", color: "white" }}>Book Your Trial</a></button>
                     </div>
                 </div>
             </div>
