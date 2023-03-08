@@ -19,7 +19,6 @@ class Plans extends React.Component {
                     <br />
                     <br />
                     <br />
-                    <br />
 
                     <div className="col-12 text-center">
                         <div className="pt-md-2 mt-1" style={{ margin: "auto", width: "fit-content" }}>
@@ -46,7 +45,6 @@ class Plans extends React.Component {
                     <div>- 30- 1:1 Sessions</div>
                     <div>- 10 Group Sessions</div>
                     <div>- Resources on demand</div>
-                    <div>- Required Resources</div>
                     <div>- 25 Assignments (In different formats with through feedbacks)</div>
 
                     <br />
@@ -81,7 +79,6 @@ class Plans extends React.Component {
                     <div>- 15 Group Sessions</div>
                     <div>- Resources on demand</div>
                     <div>- Personalized Feedback</div>
-                    <div>- Required Resources</div>
                     <div>- 40 Assignments (In different formats with through feedbacks)</div>
 
 
